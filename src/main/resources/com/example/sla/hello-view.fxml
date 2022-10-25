@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane fx:id="painel" prefHeight="616.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sla.HelloController">
+   <top>
+      <HBox alignment="CENTER" prefHeight="43.0" prefWidth="520.0" style="-fx-background-color: #413F42;" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onBtInfo" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: #AA5C9F;" text="Info" textFill="WHITE" />
+            <Button layoutX="228.0" layoutY="19.0" mnemonicParsing="false" onAction="#onBtHisto" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: #AA5C9F;" text="Histórico" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>
